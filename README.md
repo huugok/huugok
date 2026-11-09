@@ -3,9 +3,5 @@
 </div>
 
 <div align="center">
-  <img src="assets/gh-stats.svg" width="800" alt="Activity: 190 contributions, 4 repositories, 159 commits, 20 pull requests, 4 reviews. TypeScript 82%, Python 6%, JavaScript 5%, C++ 3%.">
-</div>
-
-<div align="center">
   <img src="assets/footer.svg" width="800" alt="made with love by Hugo Catalán Pastor — github.com/huugok">
 </div>
