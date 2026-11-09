@@ -18,6 +18,10 @@
       <feGaussianBlur stdDeviation="8" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <linearGradient id="name" x1="68" y1="0" x2="620" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2f3fb"/>
+      <stop offset="1" stop-color="#5f68b4"/>
+    </linearGradient>
   </defs>
 
   <rect width="1000" height="620" rx="24" fill="url(#bg)"/>
@@ -35,7 +39,7 @@
 
   <!-- intro -->
   <text x="72" y="125" fill="#8f99f9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">HELLO, WORLD — I'M</text>
-  <text x="68" y="188" fill="#f2f3fb" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="46" font-weight="700">Hugo Catalán Pastor<tspan fill="#5468f8">_</tspan></text>
+  <text x="68" y="188" fill="url(#name)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="46" font-weight="700">Hugo Catalán Pastor</text>
   <rect x="72" y="209" width="72" height="4" rx="2" fill="url(#accent)"/>
   <text x="72" y="253" fill="#e4e7f7" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600">Building stuff, breaking stuff,</text>
   <text x="72" y="284" fill="#e4e7f7" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600">sometimes even learning stuff.</text>
